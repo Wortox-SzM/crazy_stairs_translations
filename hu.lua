@@ -781,12 +781,12 @@ module.gui.ranks = {
 	["tutorial_3"] = "Ne feledd, a célod, hogy megszerezd a legfelső szinten lévő fehér gömböt!",
 
 	--shared
-	["higher"] = "VAN ENNÉL NAGYOBB RANGOD",
+	["higher"] = "VAN ENNÉL MAGASABB RANGOD",
 	["current"] = "JELENLEGI RANGOD",
 	["lower"] = "NINCS MEGSZEREZVE EZ A RANG",
 
 	["more"] = "Kell még %d mászás %s-ként, hogy megszerezd ezt a rangot.",
-	["done"] = "Neked már van nagyobb rangod. Az összes alacsonyabb ranghatás hozzá van adva a jelenlegi rangodhoz.",
+	["done"] = "Neked már van magasabb rangod. Az összes alacsonyabb ranghatás hozzá van adva a jelenlegi rangodhoz.",
 	["max"] = "Elérted a legmagasabb rangot. %d mászást szereztél %s-ként.",
 	["next"] = "Ha rányomsz a jobb nyílra, akkor meg tudod nézni, hogy mennyi mászás kell a következő ranghoz.",
 
@@ -812,10 +812,10 @@ module.gui.ranks = {
 		[9] = "Elpusztíthatsz átkozott lépcsőket.",
 	},
 	["SPECTRE"] = { 
-		[4] = "Kapsz egy bónusz Manát amikor a szellemed vesz fel egy kristályt.", 
+		[4] = "Kapsz egy bónusz Manát amikor a szellemed vesz fel egy kristályt.",
 		[5] = "A Lépcső Szellemesítése varázslatod ingyenes.",
 		[6] = "Akkor is nyerni fogsz, amikor a szellemed ér hozzá a gömbhöz.",
-		[8] = "Van választásod arra, hogy ne aktiváld a Spectre Rigeket.", 
+		[8] = "Van választásod arra, hogy ne aktiváld a Spectre Rigeket.",
 		[9] = "Rámehetsz szellemesített lépcsőkre.",
 	},
 	["KEEPER"] = {
@@ -1661,6 +1661,7 @@ module.serverfeedback = {
 	["spelllock"] = "Most nem használhatsz varázslatokat.",
 	["nothere"] = "Ezt a varázslatot nem használhatod a kiképzésben.",
 	["onlyracers"] = "Csak versenyzők varázsolhatnak.",
+	["cancelfirst"] = "Előbb szüntesd meg a jelenlegi varázslatot...",
 	["stashfull"] = "Tele van a leltárad.",
 	["stashempty"] = "El kell lopnod egy lépcsőt mielőtt megvarázsolhatnád ezt a varázslatot.",
 	["ultwait"] = "Egy másik különleges varázslat van folyamatban. Kérlek várj.",
